@@ -1,0 +1,3 @@
+---
+- name: Copy etc/hosts to remote
+  template: src=hosts dest=/etc/hosts owner=www-data group=www-data mode=0644
