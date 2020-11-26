@@ -17,7 +17,7 @@ inventory file, grouped by their purpose:
 		
 		[webservers:vars]
 		ansible_user=webservers_username
-        ansible_password=webservers_passwor
+        	ansible_password=webservers_passwor
 
 
 After which we execute the following command to deploy the site:
